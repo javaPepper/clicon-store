@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1B6392;
+  align-items: center;
+  padding: 12px 300px;
+}
+.welcome-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  font-family: "Public Sans", sans-serif;
+}
+.social-media_container {
+  display: flex;
+}
+.social-media_container img {
+  margin-right: 12px;
+  cursor: pointer;
+}
+.social-media_container img:last-child {
+  margin-right: 0;
+}
+.follow-us_text {
+  font-family: "Public sans", sans-serif;
+  font-size: 14px;
+  color: white;
+  margin-right: 12px;
+}
+.line-1 {
+  margin: 0;
+}
+.multi-language_container {
+  display: flex;
+  margin-right: 24px;
+}
+.lang {
+  color: #fff;
+  margin-right: 6px;
+}
+.arrow-down{
+  cursor: pointer;
+}
+.currency-container {
+  display: flex;
+}
+.currency {
+  color: #fff;
+  margin-right: 6px;
+}
