@@ -18,12 +18,19 @@ p {
   color: white;
   font-family: "Public Sans", sans-serif;
 }
+.right-section_container {
+  display: flex;
+  align-items: center;
+}
 .social-media_container {
   display: flex;
+  margin-right: 24px;
 }
 .social-media_container img {
   margin-right: 12px;
   cursor: pointer;
+  width: 16px;
+  height: 16px;
 }
 .social-media_container img:last-child {
   margin-right: 0;
@@ -39,7 +46,7 @@ p {
 }
 .multi-language_container {
   display: flex;
-  margin-right: 24px;
+  margin: 0 24px;
 }
 .lang {
   color: #fff;
@@ -47,6 +54,9 @@ p {
 }
 .arrow-down{
   cursor: pointer;
+  width: 12px;
+  height: 12px;
+
 }
 .currency-container {
   display: flex;
