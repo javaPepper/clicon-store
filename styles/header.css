@@ -8,7 +8,7 @@ p {
 .top-nav {
   display: flex;
   justify-content: space-between;
-  background-color: #1B6392;
+  background-color: #1b6392;
   align-items: center;
   padding: 12px 300px;
 }
@@ -52,11 +52,10 @@ p {
   color: #fff;
   margin-right: 6px;
 }
-.arrow-down{
+.arrow-down {
   cursor: pointer;
   width: 12px;
   height: 12px;
-
 }
 .currency-container {
   display: flex;
@@ -71,7 +70,7 @@ p {
   align-items: center;
   padding: 20px 300px;
   border-top: 2px solid rgba(255, 255, 255, 0.3);
-  background-color: #1B6392;
+  background-color: #1b6392;
 }
 .logo-container {
   display: flex;
@@ -118,10 +117,67 @@ p {
   position: absolute;
   bottom: 18px;
   left: 16px;
-  color: #1B6392;
+  color: #1b6392;
   background-color: #ffffff;
   font-family: "Public Sans";
   border-radius: 50%;
   padding: 2px 6px;
   font-size: 12px;
+}
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px dotted #1b6392;
+  padding: 16px 300px;
+}
+.links-container {
+  display: flex;
+  align-items: center;
+}
+.links-container p {
+  margin-right: 24px;
+  color: #5F6C72;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.links-container img {
+  margin-right: 6px;
+}
+.links-container img:first-child {
+  margin-right: 0;
+}
+.category-btn {
+  padding: 14px 24px;
+  padding-right: 36px;
+  background: #F2F4F5;
+  color: #191C1F;
+  border: none;
+  position: relative;
+  margin-right: 24px;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; 
+}
+.category-arrow_down {
+  cursor: pointer;
+  position: absolute;
+  top: 14px;
+  right: 16px;
+}
+.contacts-container {
+  display: flex;
+  align-items: center;
+}
+.phone-num {
+  color: #191C1F;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 6px;
 }
