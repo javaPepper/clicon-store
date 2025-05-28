@@ -47,10 +47,14 @@ p {
 .multi-language_container {
   display: flex;
   margin: 0 24px;
+  align-items: center;
 }
 .lang {
   color: #fff;
   margin-right: 6px;
+  font-family: "Public Sans";
+  font-size: 14px;
+  line-height: 20px;
 }
 .arrow-down{
   cursor: pointer;
@@ -60,8 +64,12 @@ p {
 }
 .currency-container {
   display: flex;
+  align-items: center;
 }
 .currency {
   color: #fff;
   margin-right: 6px;
+  font-family: "Public Sans";
+  font-size: 14px;
+  line-height: 20px;
 }
