@@ -47,7 +47,6 @@ p {
 .multi-language_container {
   display: flex;
   margin: 0 24px;
-  align-items: center;
 }
 .lang {
   color: #fff;
@@ -63,7 +62,6 @@ p {
 }
 .currency-container {
   display: flex;
-  align-items: center;
 }
 .currency {
   color: #fff;
@@ -71,4 +69,121 @@ p {
   font-family: "Public Sans";
   font-size: 14px;
   line-height: 20px;
+}
+
+.middle-nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 300px;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: #1b6392;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 176px;
+}
+.logo-text {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.64px;
+  margin-left: 8px;
+}
+.search-input {
+  padding: 14px 20px;
+  flex: 1;
+  outline: none;
+  border-radius: 2px;
+  border: none;
+}
+.search-btn {
+  padding: 10px 0;
+  background-color: #fff;
+  border: none;
+  margin-left: -40px;
+  cursor: pointer;
+}
+.main-icon_container {
+  margin-left: 176px;
+  display: flex;
+  position: relative;
+}
+.main-icon_container img {
+  margin-right: 24px;
+  cursor: pointer;
+}
+.main-icon_container img:last-child {
+  margin-right: 0;
+}
+.count-num {
+  position: absolute;
+  bottom: 18px;
+  left: 16px;
+  color: #1b6392;
+  background-color: #ffffff;
+  font-family: "Public Sans";
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px dotted #1b6392;
+  padding: 16px 300px;
+}
+.links-container {
+  display: flex;
+  align-items: center;
+}
+.links-container p {
+  margin-right: 24px;
+  color: #5F6C72;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.links-container img {
+  margin-right: 6px;
+}
+.links-container img:first-child {
+  margin-right: 0;
+}
+.category-btn {
+  padding: 14px 24px;
+  padding-right: 36px;
+  background: #F2F4F5;
+  color: #191C1F;
+  border: none;
+  position: relative;
+  margin-right: 24px;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; 
+}
+.category-arrow_down {
+  cursor: pointer;
+  position: absolute;
+  top: 14px;
+  right: 16px;
+}
+.contacts-container {
+  display: flex;
+  align-items: center;
+}
+.phone-num {
+  color: #191C1F;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 6px;
 }
