@@ -51,7 +51,7 @@ p {
 }
 .middle-side_59 {
   margin: 0 8px;
-  color: #EBC80C;
+  color: #ebc80c;
   font-family: "Public Sans";
   font-size: 40px;
   font-weight: 600;
@@ -65,10 +65,10 @@ p {
   line-height: 28px;
 }
 .shop-now_btn {
-  background-color: #EBC80C;
+  background-color: #ebc80c;
   padding: 0 24px;
   padding-right: 40px;
-  color:  #191C1F;
+  color: #191c1f;
   font-family: "Public Sans";
   font-size: 14px;
   font-weight: 700;
@@ -92,7 +92,6 @@ p {
   border: none;
   cursor: pointer;
 }
-
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -276,4 +275,232 @@ p {
   font-weight: 400;
   line-height: 24px;
   margin-left: 6px;
+}
+.mid-widgets_container {
+  display: flex;
+  padding: 24px 300px;
+}
+.left-widget {
+  display: flex;
+  flex: 2;
+  background-color: #f2f4f5;
+  height: 520px;
+  margin-right: 24px;
+  border-radius: 6px;
+  position: relative;
+}
+.lw-description_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lw-text {
+  color: #2b9be6;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-left: 56px;
+}
+.lw-title {
+  color: #191c1f;
+  font-family: "Public Sans";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-left: 56px;
+  margin-bottom: 16px;
+}
+.lw-content {
+  color: #475156;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 56px;
+  margin-bottom: 24px;
+}
+.lw-btn {
+  width: 191px;
+  padding: 0 32px;
+  padding-left: 0;
+  background-color: #fa8232;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0.192px;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 56px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.lw-arrow_right {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 56px;
+  bottom: 56px;
+}
+.dot1 {
+  left: 72px;
+}
+.dot2 {
+  left: 88px;
+}
+.xbox-image {
+  width: 368px;
+  height: 408px;
+  flex-shrink: 0;
+  padding: 56px 56px 56px 36px;
+}
+.xbox-image_price {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 100px;
+  border-radius: 100px;
+  border: 4px solid #fff;
+  background: #2da5f3;
+  padding: 0px 23px;
+  position: absolute;
+  top: 56px;
+  right: 54px;
+}
+.right-widgets_container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.top-right_widget,
+.bottom-right_widget {
+  height: 248px;
+  width: 424px;
+  border-radius: 6px;
+}
+.top-right_widget {
+  background-color: #191c1f;
+  margin-bottom: 24px;
+  position: relative;
+}
+.top-rw_title {
+  color: #ebc80c;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin: 46px 0 8px 40px;
+}
+.top-rw_content {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-left: 40px;
+  margin-bottom: 18px;
+  width: 160px;
+}
+.top-rw_btn {
+  border-radius: 2px;
+  background: #fa8232;
+  padding: 0 24px;
+  padding-right: 44px;
+  margin-left: 40px;
+  border: none;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.168px;
+  text-transform: uppercase;
+  position: relative;
+  width: 156px;
+  cursor: pointer;
+}
+.arrow-right {
+  position: absolute;
+  top: 14px;
+  right: 24px;
+}
+.pixel6Pro {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.off29 {
+  color: #141414;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 2px;
+  background: #EFD33D;
+  padding: 8px 16px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.bottom-right_widget {
+  background-color: #f2f4f5;
+  display: flex;
+}
+.xiaomiFlipBuds {
+  margin-left: 32px;
+  margin-top: 40px;
+}
+.bottom-rw-content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 40px 40px 40px 20px;
+}
+.bottom-rw_title {
+  color: #191C1F;
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+.bottom-rw_price {
+  color: #2DA5F3;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.bottom-rw_btn {
+  border-radius: 2px;
+  background: #fa8232;
+  padding: 0 24px;
+  padding-right: 44px;
+  border: none;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.168px;
+  text-transform: uppercase;
+  position: relative;
+  width: 156px;
+  margin-top: 20px;
+  cursor: pointer;
 }
