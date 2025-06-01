@@ -504,3 +504,64 @@ p {
   margin-top: 20px;
   cursor: pointer;
 }
+.features-container {
+  margin: 0 300px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  background: #FFF;
+  border: 1px solid#E4E7E9;
+  padding: 16px;
+  margin-bottom: 72px;
+  width: auto;
+}
+.delivery-container,
+.return-container,
+.payment-container,
+.support-container {
+  padding: 16px;
+  padding-right: 28px;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+}
+.package-img,
+.trophy-img,
+.payment-img,
+.support-img {
+  margin-right: 16px;
+}
+.feat-content_container,
+.return-content_container,
+.payment-content_container,
+.support-content_container {
+  display: flex;
+  flex-direction: column;
+}
+.delivery-title,
+.return-title,
+.payment-title,
+.support-title {
+  color: #191C1F;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;  
+}
+.delivery-content,
+.return-content,
+.payment-content,
+.support-content {
+  color: #5F6C72;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  }
+.line-2 {
+  height: 56px;
+  margin-top: 10px;
+}
