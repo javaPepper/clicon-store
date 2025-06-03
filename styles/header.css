@@ -5,6 +5,14 @@ body {
 p {
   margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 .widget-container {
   position: relative;
   display: flex;
@@ -512,7 +520,6 @@ p {
   background: #FFF;
   border: 1px solid#E4E7E9;
   padding: 16px;
-  margin-bottom: 72px;
   width: auto;
 }
 .delivery-container,
@@ -564,4 +571,63 @@ p {
 .line-2 {
   height: 56px;
   margin-top: 10px;
+}
+.best-deals {
+  padding: 72px 300px;
+}
+.bd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bd-left_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.bd-title {
+  color: #191C1F;
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-right: 24px;
+}
+.bd-deals {
+  color: #000;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 12px;
+}
+.bd-countdown_container {
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  border-radius: 2px;
+  background: #F3DE6D;
+}
+.bd-countdown_container p {
+  margin-right: 6px;
+}
+.bd-countdown_container p:last-child {
+  margin-right: 0;
+}
+.bd-link_container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.bd-link {
+  color:#2DA5F3;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-right: 8px;
+}
+.bd-arrow {
+  position: absolute;
+  left: 134px
 }
