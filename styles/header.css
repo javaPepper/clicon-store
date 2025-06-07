@@ -772,6 +772,7 @@ h6 {
   border-left: none;
   max-width: 248px;
   max-height: 296px;
+  position: relative;
 }
 .reg-card_img {
   margin: 16px;
@@ -820,12 +821,38 @@ h6 {
   line-height: 16px;
   left: 12px;
   top: 12px;
+  padding: 5px 10px;
   }
-.regular-card_soldout {
-  border: 1px solid #e4e7e9;
-  background: #fff;
-  border-left: none;
-  max-width: 248px;
-  max-height: 296px;
-  position: relative;
+.off19,
+.rg-off32 {
+  color: #191C1F;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 2px;
+  background: #EFD33D;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 5px 10px;
+}
+.rg-hot {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 2px;
+  background: #ee5858;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 5px 10px;
+}
+.regular-card_6,
+.regular-card_7,
+.reg-card_hot,
+.reg-card_off32 {
+  border-top: none;
 }
