@@ -456,7 +456,7 @@ h6 {
   font-weight: 600;
   line-height: 24px;
   border-radius: 2px;
-  background: #EFD33D;
+  background: #efd33d;
   padding: 8px 16px;
   position: absolute;
   top: 24px;
@@ -477,7 +477,7 @@ h6 {
   margin: 40px 40px 40px 20px;
 }
 .bottom-rw_title {
-  color: #191C1F;
+  color: #191c1f;
   font-family: "Public Sans";
   font-size: 24px;
   font-style: normal;
@@ -486,7 +486,7 @@ h6 {
   margin-bottom: 12px;
 }
 .bottom-rw_price {
-  color: #2DA5F3;
+  color: #2da5f3;
   font-family: "Public Sans";
   font-size: 18px;
   font-style: normal;
@@ -517,7 +517,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   border-radius: 6px;
-  background: #FFF;
+  background: #fff;
   border: 1px solid#E4E7E9;
   padding: 16px;
   width: auto;
@@ -551,23 +551,23 @@ h6 {
 .return-title,
 .payment-title,
 .support-title {
-  color: #191C1F;
+  color: #191c1f;
   font-family: "Public Sans";
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 .delivery-content,
 .return-content,
 .payment-content,
 .support-content {
-  color: #5F6C72;
+  color: #5f6c72;
   font-family: "Public Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  }
+}
 .line-2 {
   height: 56px;
   margin-top: 10px;
@@ -586,7 +586,7 @@ h6 {
   margin-bottom: 24px;
 }
 .bd-title {
-  color: #191C1F;
+  color: #191c1f;
   font-family: "Public Sans";
   font-size: 24px;
   font-weight: 600;
@@ -606,7 +606,7 @@ h6 {
   padding: 6px 12px;
   align-items: center;
   border-radius: 2px;
-  background: #F3DE6D;
+  background: #f3de6d;
 }
 .bd-countdown_container p {
   margin-right: 6px;
@@ -620,7 +620,7 @@ h6 {
   position: relative;
 }
 .bd-link {
-  color:#2DA5F3;
+  color: #2da5f3;
   font-family: "Public Sans";
   font-size: 14px;
   font-weight: 600;
@@ -629,5 +629,230 @@ h6 {
 }
 .bd-arrow {
   position: absolute;
-  left: 134px
+  left: 134px;
+}
+.card-container {
+  display: flex;
+}
+.active-card {
+  border: 1px solid #e4e7e9;
+  background: #fff;
+  max-width: 328px;
+  position: relative;
+}
+.active-card_img {
+  margin: 24px;
+}
+.rating-container {
+  display: flex;
+  margin: 0 24px 6px 24px;
+}
+.rating-counter {
+  margin-left: 2px;
+  color: #77878f;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.card-description {
+  color: #191c1f;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 24px;
+}
+.price-container {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+}
+.old-price {
+  color: #adb7bc;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  margin-right: 4px;
+}
+.new-price {
+  color: #2da5f3;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.card-spec {
+  color: #5f6c72;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 24px;
+}
+.buttons-container {
+  margin: 24px;
+  display: flex;
+  width: 328px;
+}
+.favorite-btn,
+.go-to-fav_btn {
+  border-radius: 2px;
+  background: #ffe7d6;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+}
+.favorite-btn_icon,
+.go-to-fav_icon {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+}
+.card-btn {
+  border-radius: 2px;
+  background: #fa8232;
+  align-items: center;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.168px;
+  text-transform: uppercase;
+  border: none;
+  margin: 0 8px;
+  position: relative;
+  padding-left: 24px;
+  width: 174px;
+  cursor: pointer;
+}
+.card-btn_icon {
+  position: absolute;
+  left: 24px;
+  top: 12px;
+}
+.off32 {
+  position: absolute;
+  color: #191c1f;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 2px;
+  background: #efd33d;
+  left: 16px;
+  top: 16px;
+  padding: 5px 10px;
+}
+.hot {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 2px;
+  background: #ee5858;
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  padding: 5px 10px;
+}
+.regular-card_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.regular-card {
+  border: 1px solid #e4e7e9;
+  background: #fff;
+  border-left: none;
+  max-width: 248px;
+  max-height: 296px;
+  position: relative;
+}
+.reg-card_img {
+  margin: 16px;
+  margin-bottom: 8px;
+}
+.reg-card_description {
+  color: #191c1f;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0 16px;
+}
+.reg-card_price {
+  color: #2da5f3;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 8px 0 16px 16px;
+}
+.reg-card-old_price {
+  color: #929FA5;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: line-through;
+  margin-right: 2px;
+}
+.reg-card-new_price {
+  color: #2DA5F3;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.sold-out {
+  position: absolute;
+  border-radius: 2px;
+  background: #929FA5;
+  color:  #FFF;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  left: 12px;
+  top: 12px;
+  padding: 5px 10px;
+  }
+.off19,
+.rg-off32 {
+  color: #191C1F;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 2px;
+  background: #EFD33D;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 5px 10px;
+}
+.rg-hot {
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  border-radius: 2px;
+  background: #ee5858;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  padding: 5px 10px;
+}
+.regular-card_6,
+.regular-card_7,
+.reg-card_hot,
+.reg-card_off32 {
+  border-top: none;
 }
