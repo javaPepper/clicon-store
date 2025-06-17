@@ -1358,3 +1358,111 @@ h6 {
   font-weight: 600;
   line-height: 20px;
 }
+.banners-container {
+  display: flex;
+  padding: 0px 300px;
+  align-items: flex-start;
+  margin-bottom: 72px;
+  width: 100%;
+}
+.left-banner_container,
+.right-banner_container {
+  display: flex;
+  padding: 44px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+  border-radius: 4px;
+  background: #f2f4f5;
+}
+.right-banner_container {
+  background: #191c1f;
+  padding: 0;
+  padding-left: 44px;
+}
+.description-container,
+.right-banner-description_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 40px;
+  width: 280px;
+  height: 248px;
+}
+.right-banner-description_container {
+  margin-right: 12px;
+  padding: 44px 0;
+}
+.left-banner_label,
+.right-banner_label {
+  padding: 6px 12px;
+  border-radius: 2px;
+  background: #2da5f3;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.right-banner_label {
+  background: #efd33d;
+  color: #191c1f;
+}
+.left-banner_title,
+.right-banner_title {
+  color: #191c1f;
+  font-family: "Public Sans";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.right-banner_title {
+  color: #fff;
+}
+.left-banner_content,
+.right-banner_content {
+  color: #475156;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.right-banner_content {
+  color: #adb7bc;
+}
+.banner-button_container {
+  position: relative;
+}
+.left-banner_btn,
+.right-banner_btn {
+  border-radius: 2px;
+  background: #fa8232;
+  display: flex;
+  padding: 0px 24px;
+  padding-right: 48px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.168px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.left-banner-btn_arrow,
+.right-banner-btn_arrow {
+  position: absolute;
+  right: 18px;
+  bottom: 15px;
+  width: 20px;
+  height: 20px;
+}
+.right-banner_img {
+  margin-top: 32px;
+}
