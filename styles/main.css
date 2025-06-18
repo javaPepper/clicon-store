@@ -1010,7 +1010,8 @@ h6 {
 .round-arrow_right {
   right: 64px;
 }
-.products {
+.products,
+.accessories {
   padding: 0 300px;
   margin-bottom: 72px;
   display: flex;
@@ -1092,18 +1093,21 @@ h6 {
   right: 32px;
   top: 15px;
 }
-.products-cards_container {
+.products-cards_container,
+.accessories-cards_container {
   display: flex;
   flex-direction: column;
 }
-.products-header_container {
+.products-header_container,
+.accessories-header_container {
   display: flex;
   align-items: flex-start;
   margin-bottom: 24px;
   margin-left: 24px;
   width: 100%;
 }
-.products-title {
+.products-title,
+.accessories-title {
   color: #191c1f;
   font-family: "Public Sans";
   font-size: 24px;
@@ -1111,11 +1115,13 @@ h6 {
   line-height: 32px;
   margin-right: 224px;
 }
-.products-sorting_container {
+.products-sorting_container,
+.accessories-sorting_container {
   display: flex;
   align-items: center;
 }
-.products-sorting_title {
+.products-sorting_title,
+.accessories-sorting_title {
   color: #191c1f;
   font-family: "Public Sans";
   font-size: 14px;
@@ -1126,7 +1132,8 @@ h6 {
   padding: 8px;
   cursor: pointer;
 }
-.products-sorting {
+.products-sorting,
+.accessories-sorting {
   color: #5f6c72;
   font-family: "Public Sans";
   font-size: 14px;
@@ -1135,13 +1142,15 @@ h6 {
   padding: 8px;
   cursor: pointer;
 }
-.products-link_container {
+.products-link_container,
+.accessories-link_container {
   display: flex;
   align-items: center;
   margin-left: 16px;
   position: relative;
 }
-.products-link {
+.products-link,
+.accessories-link {
   color: #fa8232;
   font-family: "Public Sans";
   font-size: 14px;
@@ -1149,24 +1158,32 @@ h6 {
   line-height: 20px;
   text-decoration: none;
 }
-.products-arrow {
+.products-arrow,
+.accessories-arrow {
   position: absolute;
   right: -25px;
 }
-.products-cards-upper_container {
+.products-cards-upper_container,
+.accessories-cards-upper_container {
   display: flex;
   align-items: flex-start;
   width: 100%;
   margin-left: 24px;
 }
-.products-cards-lower_container {
+.products-cards-lower_container,
+.accessories-cards-lower_container {
   display: flex;
   align-items: flex-start;
   width: 100%;
   margin-left: 24px;
   margin-top: 16px;
 }
-.prod-card {
+.accessories-cards-upper_container,
+.accessories-cards-lower_container {
+  margin-left: 0;
+}
+.prod-card,
+.accessories-card {
   border-radius: 3px;
   border: 1px solid #e4e7e9;
   background: #fff;
@@ -1175,10 +1192,12 @@ h6 {
   max-width: 234px;
   max-height: 320px;
 }
-.prod-card:last-child {
+.prod-card:last-child,
+.accessories-card:last-child {
   margin-right: 0;
 }
-.prod-card_hot {
+.prod-card_hot,
+.accessories-card_hot {
   color: #fff;
   font-family: "Public Sans";
   font-size: 12px;
@@ -1191,7 +1210,8 @@ h6 {
   left: 12px;
   padding: 5px 10px;
 }
-.prod-card_bestdeals {
+.prod-card_bestdeals,
+.accessories-card_bestdeals {
   border-radius: 2px;
   background: #2da5f3;
   color: #fff;
@@ -1204,7 +1224,8 @@ h6 {
   top: 12px;
   left: 12px;
 }
-.prod-card_25off {
+.prod-card_25off,
+.accessories-card_25off {
   border-radius: 2px;
   background: #efd33d;
   color: #191c1f;
@@ -1217,7 +1238,8 @@ h6 {
   top: 12px;
   left: 12px;
 }
-.prod-card_sale {
+.prod-card_sale,
+.accessories-card_sale {
   border-radius: 2px;
   background: #2db224;
   padding: 5px 10px;
@@ -1231,7 +1253,7 @@ h6 {
   line-height: 16px;
 }
 .prod-card-img_1 {
-  background: url(/assets/ProdCard-1.png);
+  background: url(/assets/ProdCard.png);
   margin: 16px;
   margin-bottom: 24px;
 }
@@ -1310,19 +1332,22 @@ h6 {
   background: #fa8232;
   padding: 12px;
 }
-.prod-card-desc_container {
+.prod-card-desc_container,
+.accessories-card-desc_container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 0 16px;
   margin-bottom: 16px;
 }
-.prod-card-star_container {
+.prod-card-star_container,
+.accessories-card-star_container {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
 }
-.prod-card_count {
+.prod-card_count,
+.accessories-card_count {
   color: #77878f;
   font-family: "Public Sans";
   font-size: 12px;
@@ -1330,7 +1355,8 @@ h6 {
   line-height: 16px;
   margin-left: 4px;
 }
-.prod-card_description {
+.prod-card_description,
+.accessories-card_description {
   color: #191c1f;
   font-family: "Public Sans";
   font-size: 14px;
@@ -1338,11 +1364,13 @@ h6 {
   line-height: 20px;
   margin-bottom: 8px;
 }
-.prod-card-price_container {
+.prod-card-price_container,
+.accessories-card-price_container {
   display: flex;
   align-items: center;
 }
-.prod-card-old_price {
+.prod-card-old_price,
+.accessories-card-old_price {
   color: #929fa5;
   font-family: "Public Sans";
   font-size: 14px;
@@ -1351,7 +1379,8 @@ h6 {
   text-decoration-line: line-through;
   margin-right: 4px;
 }
-.prod-card_price {
+.prod-card_price,
+.accessories-card_price {
   color: #2da5f3;
   font-family: "Public Sans";
   font-size: 14px;
