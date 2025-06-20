@@ -1573,3 +1573,77 @@ h6 {
 .right-banner-btn_arrow {
   right: 70px;
 }
+.accessories-lower-banner_container {
+  border-radius: 4px;
+  background: #124261;
+  margin-top: 24px;
+}
+.accessories-lb-content {
+  display: flex;
+  padding: 40px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.accessories-lb_title {
+  display: flex;
+  padding: 6px 12px;
+  align-items: flex-start;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.122);
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.accessories-lb_discount {
+  color: #fff;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 12px 0;
+}
+.accessories-lb_desc {
+  color: #fff;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.accessories-lb_smartphone {
+  color: #ebc80c;
+  font-weight: 600;
+}
+.accessories-lb-btn_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+.accessories-lb_btn {
+  width: 248px;
+  padding: 0px 24px;
+  background: #2da5f3;
+  color: #fff;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.168px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+.accessories-lb-btn_arrow {
+  position: absolute;
+  right: 60px;
+  bottom: 15px;
+  width: 20px;
+  height: 20px;
+}
