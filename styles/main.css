@@ -1769,3 +1769,110 @@ h6 {
   line-height: 20px;
   margin-top: 8px;
 }
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f4f5;
+  padding-top: 72px;
+}
+.articles-title {
+  color: #191c1f;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.articles-container {
+  display: flex;
+  margin-top: 40px;
+}
+.art-container {
+  max-width: 360px;
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 4px;
+  border: 1px solid #e4e7e9;
+  background: #fff;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.04);
+  margin-right: 24px;
+}
+.art-container:last-child {
+  margin-right: 0;
+}
+.article-img {
+  margin-bottom: 24px;
+}
+.article-annotation_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.art-user_icon,
+.art-date_icon,
+.art-count_icon {
+  margin-right: 6px;
+}
+.art-user_name,
+.art-date,
+.art-count {
+  color: #475156;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.art-user_name,
+.art-date {
+  margin-right: 16px;
+}
+.art-title {
+  color: #191c1f;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.art-content {
+  color: #77878f;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.art-button_container {
+  max-width: 190px;
+  position: relative;
+}
+.art-btn {
+  display: flex;
+  padding: 0px 24px;
+  padding-right: 48px;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fa8232;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.168px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid #e4e7e9;
+  background: #fff;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 2px;
+  border: 2px solid #ffe7d6;
+  cursor: pointer;
+}
+.art-btn_arrow {
+  position: absolute;
+  right: 52px;
+  top: 15px;
+}
