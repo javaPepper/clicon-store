@@ -1973,8 +1973,67 @@ h6 {
   width: 552px;
   height: 72px;
 }
-
-.about-container {
-  width: 312px;
+.footer-container {
+  display: flex;
+  padding: 72px 300px;
+  width: 1920px;
+  height: 404px;
+  background: #191c1f;
+}
+.footer-logo_container {
+  display: flex;
+  align-items: center;
+}
+.footer-about_container {
+  width: 321px;
   height: 216px;
 }
+.footer-logo_container {
+  margin-bottom: 20px;
+}
+.footer-logo_text {
+  font-family: "Public sans";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-left: 8px;
+}
+.foot-address_container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.foot-customer_support {
+  font-family: "Public sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #77878f;
+  margin-bottom: 10px;
+}
+.foot-input_tel {
+  font-family: "Public sans";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+  text-decoration: none;
+}
+.foot-address {
+  font-family: "Public sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #adb7bc;
+  margin: 10px 0;
+}
+.foot-input_email {
+  font-family: "Public sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  text-decoration: none;
+  }
