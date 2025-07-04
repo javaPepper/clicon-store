@@ -2036,4 +2036,115 @@ h6 {
   line-height: 150%;
   color: #fff;
   text-decoration: none;
-  }
+}
+.footer-categories_container,
+.footer-links_container,
+.footer-app_container,
+.foote-tags_container {
+  width: 200px;
+  margin-right: 24px;
+}
+.foot-categories_title,
+.foot-links_title,
+.foot-app_title,
+.foot-tags_title {
+  color: #FFF;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.foot-categories_comp,
+.foot-categories_smartphone,
+.foot-categories_headphone,
+.foot-categories_camera,
+.foot-categories_tv,
+.foot-links_product,
+.foot-links_cart,
+.foot-links_wishlist,
+.foot-links_compare,
+.foot-links_track,
+.foot-links_help,
+.foot-links_about {
+  color: #929FA5;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 6px 0px;
+}
+.foot-categories-title_container {
+  display: flex;
+  padding: 6px 0px;
+  align-items: center;
+}
+.foot-cat_title {
+  margin-left: 8px;
+  color: #FFF;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.foot-categories-link_container {
+  display: flex;
+  padding: 6px 0px;
+  align-items: center;
+  cursor: pointer;
+}
+.foot-categories_link {
+  color: #EBC80C;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+.footer-app_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.foot-app_title {
+  margin-bottom: 18px;
+}
+.foot-app-google_link {
+  margin-bottom: 12px;
+}
+.foot-tags_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.foot-tags-row_container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+.foot-tags-row_container:last-child {
+  margin-bottom: 0;
+}
+.active-tag {
+  background: #303639;
+}
+.foot-tag{
+  display: flex;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: "Public Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 2px;
+  border: 1px solid #303639;
+  margin-right: 8px;
+  text-decoration: none;
+}
+.foot-tag:last-child {
+  margin-right: 0;
+}
