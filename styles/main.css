@@ -1,4 +1,7 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
@@ -12,6 +15,13 @@ h4,
 h5,
 h6 {
   margin: 0;
+}
+.main-page {
+  display: flex;
+  max-width: 1920px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .widget-container {
   position: relative;
@@ -86,7 +96,7 @@ h6 {
   position: relative;
   cursor: pointer;
 }
-.arrow-right {
+.widget-arrow_right {
   position: absolute;
   top: 14px;
   right: 16px;
@@ -121,7 +131,7 @@ h6 {
   display: flex;
   margin-right: 24px;
 }
-.social-media_container img {
+.social-media_container a {
   margin-right: 12px;
   cursor: pointer;
   width: 16px;
@@ -167,12 +177,11 @@ h6 {
   font-size: 14px;
   line-height: 20px;
 }
-
 .middle-nav {
   display: flex;
   align-items: center;
   padding: 20px 300px;
-  border-top: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
   background-color: #1b6392;
 }
 .logo-container {
@@ -209,7 +218,7 @@ h6 {
   display: flex;
   position: relative;
 }
-.main-icon_container img {
+.main-icon_container a {
   margin-right: 24px;
   cursor: pointer;
 }
@@ -232,26 +241,30 @@ h6 {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  border-bottom: 1px dotted #1b6392;
+  border-bottom: 1px solid rgba(27, 99, 146, 0.1);
   padding: 16px 300px;
 }
 .links-container {
   display: flex;
   align-items: center;
 }
-.links-container p {
+.links-container a {
+  display: flex;
+  align-items: center;
   margin-right: 24px;
   color: #5f6c72;
   font-family: "Public Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
+  text-decoration: none;
+  text-align: center;
 }
-.links-container img {
+.pin-icon,
+.compare-icon,
+.headphones-icon,
+.info-icon {
   margin-right: 6px;
-}
-.links-container img:first-child {
-  margin-right: 0;
 }
 .category-btn {
   padding: 14px 24px;
@@ -265,9 +278,9 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+  cursor: pointer;
 }
 .category-arrow_down {
-  cursor: pointer;
   position: absolute;
   top: 14px;
   right: 16px;
@@ -277,12 +290,17 @@ h6 {
   align-items: center;
 }
 .phone-num {
+  display: flex;
+  align-items: center;
   color: #191c1f;
   font-family: "Public Sans";
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 6px;
+  text-decoration: none;
+}
+.contacts-phone {
+  margin-right: 8px;
 }
 .mid-widgets_container {
   display: flex;
