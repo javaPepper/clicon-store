@@ -218,11 +218,13 @@ h6 {
   display: flex;
   position: relative;
 }
-.main-icon_container a {
+.cart,
+.heart,
+.user {
   margin-right: 24px;
   cursor: pointer;
 }
-.main-icon_container img:last-child {
+.user {
   margin-right: 0;
 }
 .count-num {
@@ -310,7 +312,6 @@ h6 {
   display: flex;
   flex: 2;
   background-color: #f2f4f5;
-  height: 520px;
   margin-right: 24px;
   border-radius: 6px;
   position: relative;
@@ -411,7 +412,6 @@ h6 {
 .top-right_widget,
 .bottom-right_widget {
   height: 248px;
-  width: 424px;
   border-radius: 6px;
 }
 .top-right_widget {
@@ -591,7 +591,7 @@ h6 {
   margin-top: 10px;
 }
 .best-deals {
-  padding: 72px 300px;
+  margin: 72px 296px;
 }
 .bd-header {
   display: flex;
@@ -636,6 +636,7 @@ h6 {
   display: flex;
   align-items: center;
   position: relative;
+  padding-right: 20px;
 }
 .bd-link {
   color: #2da5f3;
@@ -644,18 +645,21 @@ h6 {
   font-weight: 600;
   line-height: 20px;
   margin-right: 8px;
+  text-decoration: none;
 }
 .bd-arrow {
   position: absolute;
-  left: 134px;
+  right: 0;
 }
 .card-container {
   display: flex;
+  max-width: 1320px;
+  max-height: 592px;
 }
 .active-card {
   border: 1px solid #e4e7e9;
   background: #fff;
-  max-width: 328px;
+  max-width: 326px;
   position: relative;
 }
 .active-card_img {
@@ -788,8 +792,8 @@ h6 {
   border: 1px solid #e4e7e9;
   background: #fff;
   border-left: none;
-  max-width: 248px;
-  max-height: 296px;
+  max-width: 246px;
+  max-height: 292px;
   position: relative;
 }
 .reg-card-img_2 {
