@@ -1428,10 +1428,9 @@ h6 {
 }
 .banners-container {
   display: flex;
-  padding: 0px 300px;
+  margin: 0px 300px;
   align-items: flex-start;
   margin-bottom: 72px;
-  width: 100%;
 }
 .left-banner_container,
 .right-banner_container {
@@ -1439,7 +1438,7 @@ h6 {
   padding: 44px;
   justify-content: center;
   align-items: center;
-  margin-right: 24px;
+  margin-right: 34px;
   border-radius: 4px;
   background: #f2f4f5;
 }
@@ -1447,6 +1446,7 @@ h6 {
   background: #191c1f;
   padding: 0;
   padding-left: 44px;
+  margin-right: 0;
 }
 .description-container,
 .right-banner-description_container {
