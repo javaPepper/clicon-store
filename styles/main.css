@@ -978,7 +978,7 @@ h6 {
   border-top: none;
 }
 .categories {
-  padding: 0 300px;
+  margin: 0 300px;
   background-color: #fff;
   margin-bottom: 72px;
 }
@@ -1030,7 +1030,7 @@ h6 {
   left: -22px;
 }
 .round-arrow_right {
-  right: 64px;
+  right: 0;
 }
 .products,
 .accessories {
