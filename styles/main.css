@@ -1223,6 +1223,10 @@ h6 {
   height: 316px;
   transition: 0.7s ease;
 }
+.accessories-card_img {
+  padding: 16px;
+  padding-bottom: 24px;
+}
 .prod-card:hover {
   border-radius: 3px;
   border: 1px solid #C9CFD2;
@@ -1549,7 +1553,6 @@ h6 {
   justify-content: center;
   align-items: center;
 }
-
 .accessories-ub_title {
   color: #191c1f;
   text-align: center;
@@ -1558,6 +1561,7 @@ h6 {
   font-weight: 600;
   line-height: 32px;
   margin-bottom: 8px;
+  margin-top: -30px;
 }
 .accessories-ub_desc {
   color: #475156;
