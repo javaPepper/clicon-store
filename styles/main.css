@@ -1914,16 +1914,14 @@ h6 {
   right: 52px;
   top: 15px;
 }
-.subscribe {
+.subscribe-container {
   display: flex;
-  padding: 72px 300px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 72px 300px;
   background: #1b6392;
-}
-.subscribe-container {
-  max-width: 536px;
+  width: 1332px;
 }
 .subscribe-title {
   font-family: "Public sans";
@@ -1943,6 +1941,7 @@ h6 {
   color: #fff;
   opacity: 0.7;
   margin-bottom: 24px;
+  max-width: 536px;
 }
 .sub-input_container {
   position: relative;
@@ -2002,12 +2001,13 @@ h6 {
   height: 20px;
   cursor: pointer;
 }
+.sub-line {
+  margin-top: 32px;
+}
 .sub-logo_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
   width: 552px;
   height: 72px;
 }
