@@ -1686,13 +1686,13 @@ h6 {
   height: 20px;
 }
 .lower-banner {
-  width: 1438px;
-  height: 424px;
   display: flex;
   justify-content: space-between;
   background: #ffe7d6;
-  margin-left: 241px;
   position: relative;
+  margin: 0 300px;
+  width: 1438px;
+  height: 424px;
 }
 .lb-content_container {
   padding: 80px 72px;
@@ -1763,7 +1763,7 @@ h6 {
 }
 .products-mini {
   display: flex;
-  padding: 72px 300px;
+  margin: 72px 300px;
   justify-content: center;
   align-items: center;
 }
@@ -1784,8 +1784,9 @@ h6 {
   background: #fff;
   margin: 16px 24px;
   margin-left: 0;
+  width: 288px;
 }
-.new-arrival_container {
+.new-arrival_container .prod-mini-card_container {
   margin-right: 0;
 }
 .prod-mini-content_container {
