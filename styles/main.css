@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Public Sans";
+  src: url(/fonts/PublicSans-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-dark-grey: #191c1f;
+  --color-yellow: #ebc80c;
+  --color-light-grey: #fff;
+  --color-blue: #1b6392;
+  --color-orange: #fa8232;
+
+  --font-family-regular: "Public Sans", sans-serif;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -29,16 +47,16 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 16px 300px;
-  background-color: #191c1f;
+  background-color: var(--color-dark-grey);
 }
 .left-side_container {
   display: flex;
   align-items: center;
 }
 .left-side_black {
-  color: #191c1f;
+  color: var(--color-dark-grey);
   background-color: #f3de6d;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
@@ -48,8 +66,8 @@ h6 {
   margin-right: 12px;
 }
 .left-side_friday {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -61,40 +79,38 @@ h6 {
 .middle-side_upto {
   display: flex;
   align-items: center;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
 .middle-side_59 {
   margin: 0 8px;
-  color: #ebc80c;
-  font-family: "Public Sans";
+  color: var(--color-yellow);
+  font-family: var(--font-family-regular);
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
 }
 .middle-side_off {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
 }
 .shop-now_btn {
-  background-color: #ebc80c;
+  background-color: var(--color-yellow);
   padding: 0 24px;
   padding-right: 40px;
-  color: #191c1f;
-  font-family: "Public Sans";
-  font-size: 14px;
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.168px;
   text-transform: uppercase;
   position: relative;
-  cursor: pointer;
 }
 .widget-arrow_right {
   position: absolute;
@@ -108,20 +124,18 @@ h6 {
   position: absolute;
   right: 8px;
   border: none;
-  cursor: pointer;
 }
 .top-nav {
   display: flex;
   justify-content: space-between;
-  background-color: #1b6392;
+  background-color: var(--color-blue);
   align-items: center;
   padding: 12px 300px;
 }
 .welcome-text {
-  font-weight: 400;
-  font-size: 14px;
   color: white;
-  font-family: "Public Sans", sans-serif;
+  font-family: var(--font-family-regular);
+  font-size: 14px;
 }
 .right-section_container {
   display: flex;
@@ -130,10 +144,10 @@ h6 {
 .social-media_container {
   display: flex;
   margin-right: 24px;
+  align-items: center;
 }
 .social-media_container a {
   margin-right: 12px;
-  cursor: pointer;
   width: 16px;
   height: 16px;
 }
@@ -141,7 +155,7 @@ h6 {
   margin-right: 0;
 }
 .follow-us_text {
-  font-family: "Public sans", sans-serif;
+  font-family: var(--font-family-regular);
   font-size: 14px;
   color: white;
   margin-right: 12px;
@@ -155,9 +169,9 @@ h6 {
   align-items: center;
 }
 .lang {
-  color: #fff;
+  color: var(--color-light-grey);
   margin-right: 6px;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   line-height: 20px;
 }
@@ -171,9 +185,9 @@ h6 {
   align-items: center;
 }
 .currency {
-  color: #fff;
+  color: var(--color-light-grey);
   margin-right: 6px;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   line-height: 20px;
 }
@@ -182,7 +196,7 @@ h6 {
   align-items: center;
   padding: 20px 300px;
   border-top: 2px solid rgba(255, 255, 255, 0.1);
-  background-color: #1b6392;
+  background-color: var(--color-blue);
 }
 .logo-container {
   display: flex;
@@ -190,10 +204,9 @@ h6 {
   margin-right: 176px;
 }
 .logo-text {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: -0.64px;
@@ -208,10 +221,9 @@ h6 {
 }
 .search-btn {
   padding: 10px 0;
-  background-color: #fff;
+  background-color: var(--color-light-grey);
   border: none;
   margin-left: -40px;
-  cursor: pointer;
 }
 .main-icon_container {
   margin-left: 176px;
@@ -222,7 +234,6 @@ h6 {
 .heart,
 .user {
   margin-right: 24px;
-  cursor: pointer;
 }
 .user {
   margin-right: 0;
@@ -231,9 +242,9 @@ h6 {
   position: absolute;
   bottom: 18px;
   left: 16px;
-  color: #1b6392;
-  background-color: #ffffff;
-  font-family: "Public Sans";
+  color: var(--color-blue);
+  background-color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   border-radius: 50%;
   padding: 2px 6px;
   font-size: 12px;
@@ -242,7 +253,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: var(--color-light-grey);
   border-bottom: 1px solid rgba(27, 99, 146, 0.1);
   padding: 16px 300px;
 }
@@ -255,9 +266,8 @@ h6 {
   align-items: center;
   margin-right: 24px;
   color: #5f6c72;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-decoration: none;
   text-align: center;
@@ -272,15 +282,14 @@ h6 {
   padding: 14px 24px;
   padding-right: 36px;
   background: #f2f4f5;
-  color: #191c1f;
+  color: var(--color-dark-grey);
   border: none;
   position: relative;
   margin-right: 24px;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  cursor: pointer;
 }
 .category-arrow_down {
   position: absolute;
@@ -294,10 +303,9 @@ h6 {
 .phone-num {
   display: flex;
   align-items: center;
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
   text-decoration: none;
 }
@@ -323,16 +331,15 @@ h6 {
 }
 .lw-text {
   color: #2b9be6;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 20px;
   margin-left: 56px;
 }
 .lw-title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 48px;
   font-weight: 600;
   line-height: 56px;
@@ -341,9 +348,8 @@ h6 {
 }
 .lw-content {
   color: #475156;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
   margin-left: 56px;
   margin-bottom: 24px;
@@ -352,9 +358,9 @@ h6 {
   width: 191px;
   padding: 0 32px;
   padding-left: 0;
-  background-color: #fa8232;
-  color: #fff;
-  font-family: "Public Sans";
+  background-color: var(--color-orange);
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 700;
   line-height: 56px;
@@ -363,7 +369,6 @@ h6 {
   position: relative;
   margin-left: 56px;
   border: none;
-  cursor: pointer;
   border-radius: 3px;
 }
 .lw-arrow_right {
@@ -391,13 +396,13 @@ h6 {
   padding: 56px 56px 56px 36px;
 }
 .xbox-image_price {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 22px;
   font-weight: 600;
   line-height: 100px;
   border-radius: 100px;
-  border: 4px solid #fff;
+  border: 4px solid var(--color-light-grey);
   background: #2da5f3;
   padding: 0px 23px;
   position: absolute;
@@ -415,13 +420,13 @@ h6 {
   border-radius: 6px;
 }
 .top-right_widget {
-  background-color: #191c1f;
+  background-color: var(--color-dark-grey);
   margin-bottom: 24px;
   position: relative;
 }
 .top-rw_title {
-  color: #ebc80c;
-  font-family: "Public Sans";
+  color: var(--color-yellow);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -429,8 +434,8 @@ h6 {
   margin: 46px 0 8px 40px;
 }
 .top-rw_content {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -440,22 +445,20 @@ h6 {
 }
 .top-rw_btn {
   border-radius: 2px;
-  background: #fa8232;
+  background: var(--color-orange);
   padding: 0 24px;
   padding-right: 44px;
   margin-left: 40px;
   border: none;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.168px;
   text-transform: uppercase;
   position: relative;
   width: 156px;
-  cursor: pointer;
 }
 .arrow-right {
   position: absolute;
@@ -469,7 +472,7 @@ h6 {
 }
 .off29 {
   color: #141414;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -495,32 +498,29 @@ h6 {
   margin: 40px 40px 40px 20px;
 }
 .bottom-rw_title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   line-height: 32px;
   margin-bottom: 12px;
 }
 .bottom-rw_price {
   color: #2da5f3;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px;
 }
 .bottom-rw_btn {
   border-radius: 2px;
-  background: #fa8232;
+  background: var(--color-orange);
   padding: 0 24px;
   padding-right: 44px;
   border: none;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.168px;
@@ -528,14 +528,13 @@ h6 {
   position: relative;
   width: 156px;
   margin-top: 20px;
-  cursor: pointer;
 }
 .features-container {
   margin: 0 300px;
   display: flex;
   justify-content: space-between;
   border-radius: 6px;
-  background: #fff;
+  background: var(--color-light-grey);
   border: 1px solid#E4E7E9;
   padding: 16px;
   width: auto;
@@ -569,8 +568,8 @@ h6 {
 .return-title,
 .payment-title,
 .support-title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -581,9 +580,7 @@ h6 {
 .payment-content,
 .support-content {
   color: #5f6c72;
-  font-family: "Public Sans";
-  font-size: 14px;
-  font-weight: 400;
+  font-family: var(--font-family-regular);
   line-height: 20px;
 }
 .line-2 {
@@ -604,8 +601,8 @@ h6 {
   margin-bottom: 24px;
 }
 .bd-title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -613,9 +610,8 @@ h6 {
 }
 .bd-deals {
   color: #000;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   margin-right: 12px;
 }
@@ -640,7 +636,7 @@ h6 {
 }
 .bd-link {
   color: #2da5f3;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -658,7 +654,7 @@ h6 {
 }
 .active-card {
   border: 1px solid #e4e7e9;
-  background: #fff;
+  background: var(--color-light-grey);
   max-width: 326px;
   position: relative;
 }
@@ -672,16 +668,14 @@ h6 {
 .rating-counter {
   margin-left: 2px;
   color: #77878f;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
 }
 .card-description {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   margin: 0 24px;
 }
@@ -692,25 +686,23 @@ h6 {
 }
 .old-price {
   color: #adb7bc;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   text-decoration-line: line-through;
   margin-right: 4px;
 }
 .new-price {
   color: #2da5f3;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
 }
 .card-spec {
   color: #5f6c72;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   margin: 0 24px;
 }
@@ -727,7 +719,6 @@ h6 {
   width: 48px;
   height: 48px;
   border: none;
-  cursor: pointer;
 }
 .favorite-btn_icon,
 .go-to-fav_icon {
@@ -737,10 +728,10 @@ h6 {
 }
 .card-btn {
   border-radius: 2px;
-  background: #fa8232;
+  background: var(--color-orange);
   align-items: center;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
@@ -751,7 +742,6 @@ h6 {
   position: relative;
   padding-left: 24px;
   width: 174px;
-  cursor: pointer;
 }
 .card-btn_icon {
   position: absolute;
@@ -760,8 +750,8 @@ h6 {
 }
 .off32 {
   position: absolute;
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -772,8 +762,8 @@ h6 {
   padding: 5px 10px;
 }
 .hot {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -790,10 +780,10 @@ h6 {
 }
 .regular-card {
   border: 1px solid #e4e7e9;
-  background: #fff;
+  background: var(--color-light-grey);
   border-left: none;
   max-width: 246px;
-  max-height: 292px;
+  max-height: 294px;
   position: relative;
 }
 .reg-card-img_2 {
@@ -884,32 +874,31 @@ h6 {
 }
 .reg-card-img_heart {
   border-radius: 100px;
-  background: #fa8232;
+  background: var(--color-orange);
   padding: 12px;
   margin-right: 8px;
 }
 .reg-card-img_cart {
   border-radius: 100px;
-  background: #fff;
+  background: var(--color-light-grey);
   padding: 12px;
   margin-right: 8px;
 }
 .reg-card-img_eye {
   border-radius: 100px;
-  background: #fff;
+  background: var(--color-light-grey);
   padding: 12px;
 }
 .reg-card_description {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   padding: 0 16px;
 }
 .reg-card_price {
   color: #2da5f3;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -917,16 +906,15 @@ h6 {
 }
 .reg-card-old_price {
   color: #929fa5;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-decoration-line: line-through;
   margin-right: 2px;
 }
 .reg-card-new_price {
   color: #2da5f3;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -935,8 +923,8 @@ h6 {
   position: absolute;
   border-radius: 2px;
   background: #929fa5;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -946,8 +934,8 @@ h6 {
 }
 .off19,
 .rg-off32 {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -959,8 +947,8 @@ h6 {
   padding: 5px 10px;
 }
 .rg-hot {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -979,7 +967,7 @@ h6 {
 }
 .categories {
   margin: 0 300px;
-  background-color: #fff;
+  background-color: var(--color-light-grey);
   margin-bottom: 72px;
 }
 .categories-cards_container {
@@ -988,9 +976,9 @@ h6 {
   position: relative;
 }
 .categories-title {
-  color: #191c1f;
+  color: var(--color-dark-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
@@ -999,7 +987,7 @@ h6 {
 .categories-card {
   border-radius: 4px;
   border: 1px solid #e4e7e9;
-  background: #fff;
+  background: var(--color-light-grey);
   margin-right: 18px;
 }
 .categories-card:last-child {
@@ -1009,9 +997,9 @@ h6 {
   padding: 24px 28px;
 }
 .categories-text {
-  color: #191c1f;
+  color: var(--color-dark-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -1022,9 +1010,8 @@ h6 {
   position: absolute;
   top: 92px;
   border-radius: 100px;
-  background: #fa8232;
+  background: var(--color-orange);
   padding: 12px;
-  cursor: pointer;
 }
 .round-arrow_left {
   left: -22px;
@@ -1048,16 +1035,16 @@ h6 {
 .so-title {
   color: #be4646;
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
   padding: 32px 32px 8px 32px;
 }
 .so-discount_count {
-  color: #191c1f;
+  color: var(--color-dark-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
@@ -1065,9 +1052,8 @@ h6 {
 .so-discount_category {
   color: #475156;
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   margin: 12px 0 16px 0;
 }
@@ -1077,17 +1063,17 @@ h6 {
   justify-content: center;
 }
 .so-discount-ending {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
 .so-discount-ending_date {
   border-radius: 2px;
-  background: #fff;
-  color: #191c1f;
-  font-family: "Public Sans";
+  background: var(--color-light-grey);
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -1096,9 +1082,9 @@ h6 {
 }
 .so-button {
   border-radius: 3px;
-  background: #fa8232;
-  color: #fff;
-  font-family: "Public Sans";
+  background: var(--color-orange);
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 700;
   line-height: 56px;
@@ -1106,14 +1092,13 @@ h6 {
   text-transform: uppercase;
   border: none;
   padding: 0px 32px;
-  padding-right: 68px;
+  padding-right: 55px;
   margin: 32px 61px 16px 60px;
   position: relative;
-  cursor: pointer;
 }
 .so-button_icon {
   position: absolute;
-  right: 32px;
+  right: 22px;
   top: 15px;
 }
 .products-cards_container,
@@ -1137,8 +1122,8 @@ h6 {
 }
 .products-title,
 .accessories-title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -1152,27 +1137,29 @@ h6 {
   display: flex;
   align-items: center;
 }
-.products-sorting_title,
-.accessories-sorting_title {
-  color: #191c1f;
-  font-family: "Public Sans";
+.products-sorting_list,
+.accessories-sorting_list {
+  display: flex;
+}
+.products-sorting:hover,
+.accessories-sorting:hover {
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  background: #fff;
-  box-shadow: 0px -2px 0px 0px #fa8232 inset;
+  background: var(--color-light-grey);
+  box-shadow: 0px -2px 0px 0px var(--color-orange) inset;
   padding: 8px;
   cursor: pointer;
 }
 .products-sorting,
 .accessories-sorting {
   color: #5f6c72;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   padding: 8px;
-  cursor: pointer;
 }
 .products-link_container,
 .accessories-link_container {
@@ -1183,8 +1170,8 @@ h6 {
 }
 .products-link,
 .accessories-link {
-  color: #fa8232;
-  font-family: "Public Sans";
+  color: var(--color-orange);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -1216,12 +1203,15 @@ h6 {
 .accessories-card {
   border-radius: 3px;
   border: 1px solid #e4e7e9;
-  background: #fff;
+  background: var(--color-light-grey);
   margin-right: 16px;
   position: relative;
   width: 233px;
-  height: 316px;
+  height: 312px;
   transition: 0.7s ease;
+}
+.accessories-card {
+  height: 320px;
 }
 .accessories-card_img {
   padding: 16px;
@@ -1230,7 +1220,7 @@ h6 {
 .prod-card:hover {
   border-radius: 3px;
   border: 1px solid #c9cfd2;
-  background: #fff;
+  background: var(--color-light-grey);
   box-shadow: 0px 8px 24px 0px rgba(25, 28, 31, 0.12);
   transition: 0.7s ease;
 }
@@ -1240,8 +1230,8 @@ h6 {
 }
 .prod-card_hot,
 .accessories-card_hot {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -1256,8 +1246,8 @@ h6 {
 .accessories-card_bestdeals {
   border-radius: 2px;
   background: #2da5f3;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -1270,8 +1260,8 @@ h6 {
 .accessories-card_25off {
   border-radius: 2px;
   background: #efd33d;
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -1288,8 +1278,8 @@ h6 {
   position: absolute;
   top: 12px;
   left: 12px;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -1359,19 +1349,19 @@ h6 {
 }
 .prod-card-img_heart {
   border-radius: 100px;
-  background: #fff;
+  background: var(--color-light-grey);
   padding: 12px;
   margin-right: 8px;
 }
 .prod-card-img_cart {
   border-radius: 100px;
-  background: #fff;
+  background: var(--color-light-grey);
   padding: 12px;
   margin-right: 8px;
 }
 .prod-card-img_eye {
   border-radius: 100px;
-  background: #fa8232;
+  background: var(--color-orange);
   padding: 12px;
 }
 .prod-card-desc_container,
@@ -1391,18 +1381,16 @@ h6 {
 .prod-card_count,
 .accessories-card_count {
   color: #77878f;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 12px;
-  font-weight: 400;
   line-height: 16px;
   margin-left: 4px;
 }
 .prod-card_description,
 .accessories-card_description {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   margin-bottom: 8px;
   word-break: break-all;
@@ -1415,9 +1403,8 @@ h6 {
 .prod-card-old_price,
 .accessories-card-old_price {
   color: #929fa5;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   text-decoration-line: line-through;
   margin-right: 4px;
@@ -1425,7 +1412,7 @@ h6 {
 .prod-card_price,
 .accessories-card_price {
   color: #2da5f3;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -1447,31 +1434,30 @@ h6 {
   background: #f2f4f5;
 }
 .right-banner_container {
-  background: #191c1f;
+  background: var(--color-dark-grey);
   padding: 0;
   padding-left: 44px;
   margin-right: 0;
 }
-.description-container,
+.left-banner-description_container,
 .right-banner-description_container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-right: 40px;
-  width: 280px;
+  width: 346px;
   height: 248px;
 }
 .right-banner-description_container {
   margin-right: 12px;
-  padding: 44px 0;
 }
 .left-banner_label,
 .right-banner_label {
   padding: 6px 12px;
   border-radius: 2px;
   background: #2da5f3;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -1479,26 +1465,25 @@ h6 {
 }
 .right-banner_label {
   background: #efd33d;
-  color: #191c1f;
+  color: var(--color-dark-grey);
 }
 .left-banner_title,
 .right-banner_title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
   margin-bottom: 20px;
 }
 .right-banner_title {
-  color: #fff;
+  color: var(--color-light-grey);
 }
 .left-banner_content,
 .right-banner_content {
   color: #475156;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   margin-bottom: 20px;
 }
@@ -1511,21 +1496,20 @@ h6 {
 .left-banner_btn,
 .right-banner_btn {
   border-radius: 2px;
-  background: #fa8232;
+  background: var(--color-orange);
   display: flex;
   padding: 0px 24px;
   padding-right: 48px;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.168px;
   text-transform: uppercase;
   border: none;
-  cursor: pointer;
 }
 .left-banner-btn_arrow,
 .right-banner-btn_arrow {
@@ -1554,9 +1538,9 @@ h6 {
   align-items: center;
 }
 .accessories-ub_title {
-  color: #191c1f;
+  color: var(--color-dark-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 28px;
   font-weight: 600;
   line-height: 32px;
@@ -1566,9 +1550,8 @@ h6 {
 .accessories-ub_desc {
   color: #475156;
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   margin-bottom: 16px;
 }
@@ -1579,9 +1562,8 @@ h6 {
 }
 .accessories-ub-price_text {
   color: #475156;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
   margin-right: 8px;
 }
@@ -1590,10 +1572,10 @@ h6 {
   padding: 6px 12px;
   align-items: flex-start;
   border-radius: 3px;
-  background: #fff;
-  color: #191c1f;
+  background: var(--color-light-grey);
+  color: var(--color-dark-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -1605,7 +1587,7 @@ h6 {
   justify-content: center;
   align-items: center;
   border-radius: 2px;
-  background: #fa8232;
+  background: var(--color-orange);
   cursor: pointer;
 }
 .right-banner-btn_arrow {
@@ -1629,31 +1611,30 @@ h6 {
   align-items: flex-start;
   border-radius: 2px;
   background: rgba(255, 255, 255, 0.122);
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
 }
 .accessories-lb_discount {
-  color: #fff;
+  color: var(--color-light-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 28px;
   font-weight: 600;
   line-height: 32px;
   margin: 12px 0;
 }
 .accessories-lb_desc {
-  color: #fff;
+  color: var(--color-light-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
 }
 .accessories-lb_smartphone {
-  color: #ebc80c;
+  color: var(--color-yellow);
   font-weight: 600;
 }
 .accessories-lb-btn_container {
@@ -1667,15 +1648,14 @@ h6 {
   width: 248px;
   padding: 0px 24px;
   background: #2da5f3;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.168px;
   text-transform: uppercase;
   border: none;
-  cursor: pointer;
   margin-top: 24px;
 }
 .accessories-lb-btn_arrow {
@@ -1700,8 +1680,8 @@ h6 {
   width: 424px;
 }
 .lb-label {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -1712,18 +1692,17 @@ h6 {
   margin-bottom: 12px;
 }
 .lb-title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 48px;
   font-weight: 600;
   line-height: 56px;
   margin-bottom: 22px;
 }
 .lb-content {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 24px;
-  font-weight: 400;
   line-height: 32px;
   margin: 22px 0;
 }
@@ -1731,16 +1710,15 @@ h6 {
   max-width: 127px;
 }
 .lb_btn {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 700;
   line-height: 56px;
   letter-spacing: 0.192px;
   text-transform: uppercase;
-  background-color: #fa8232;
+  background-color: var(--color-orange);
   border: none;
-  cursor: pointer;
 }
 .lb-img {
   padding-right: 46px;
@@ -1753,10 +1731,10 @@ h6 {
   padding: 41px 24px 41px 25px;
   align-items: flex-start;
   border-radius: 1000px;
-  border: 6px solid #fff;
+  border: 6px solid var(--color-light-grey);
   background: #ffcead;
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
@@ -1768,8 +1746,8 @@ h6 {
   align-items: center;
 }
 .prod-mini_title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -1781,7 +1759,7 @@ h6 {
   align-items: center;
   border-radius: 3px;
   border: 1px solid #e4e7e9;
-  background: #fff;
+  background: var(--color-light-grey);
   margin: 16px 24px;
   margin-left: 0;
   width: 288px;
@@ -1793,15 +1771,14 @@ h6 {
   margin-left: 12px;
 }
 .prod-mini-card_desc {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
 }
 .prod-mini-card_price {
   color: #2da5f3;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
@@ -1815,9 +1792,9 @@ h6 {
   padding: 72px 300px;
 }
 .articles-title {
-  color: #191c1f;
+  color: var(--color-dark-grey);
   text-align: center;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
@@ -1834,7 +1811,7 @@ h6 {
   align-items: flex-start;
   border-radius: 4px;
   border: 1px solid #e4e7e9;
-  background: #fff;
+  background: var(--color-light-grey);
   box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.04);
   margin-right: 24px;
 }
@@ -1858,9 +1835,8 @@ h6 {
 .art-date,
 .art-count {
   color: #475156;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
-  font-weight: 400;
   line-height: 20px;
 }
 .art-user_name,
@@ -1868,8 +1844,8 @@ h6 {
   margin-right: 16px;
 }
 .art-title {
-  color: #191c1f;
-  font-family: "Public Sans";
+  color: var(--color-dark-grey);
+  font-family: var(--font-family-regular);
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -1877,9 +1853,8 @@ h6 {
 }
 .art-content {
   color: #77878f;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   margin-bottom: 24px;
 }
@@ -1893,8 +1868,8 @@ h6 {
   padding-right: 48px;
   justify-content: flex-start;
   align-items: center;
-  color: #fa8232;
-  font-family: "Public Sans";
+  color: var(--color-orange);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 700;
   line-height: 48px;
@@ -1903,11 +1878,10 @@ h6 {
   border: none;
   border-radius: 4px;
   border: 1px solid #e4e7e9;
-  background: #fff;
+  background: var(--color-light-grey);
   box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.04);
   border-radius: 2px;
   border: 2px solid #ffe7d6;
-  cursor: pointer;
 }
 .art-btn_arrow {
   position: absolute;
@@ -1920,25 +1894,24 @@ h6 {
   justify-content: center;
   align-items: center;
   padding: 72px 300px;
-  background: #1b6392;
-  width: 1332px;
+  background: var(--color-blue);
+  width: 1320px;
 }
 .subscribe-title {
-  font-family: "Public sans";
+  font-family: var(--font-family-regular);
   font-weight: 600;
   font-size: 32px;
   line-height: 125%;
   text-align: center;
-  color: #fff;
+  color: var(--color-light-grey);
   margin-bottom: 12px;
 }
 .subscribe-content {
-  font-family: "Public sans";
-  font-weight: 400;
+  font-family: var(--font-family-regular);
   font-size: 16px;
   line-height: 150%;
   text-align: center;
-  color: #fff;
+  color: var(--color-light-grey);
   opacity: 0.7;
   margin-bottom: 24px;
   max-width: 536px;
@@ -1949,7 +1922,7 @@ h6 {
   padding: 12px;
   width: 624px;
   height: 48px;
-  background: #fff;
+  background: var(--color-light-grey);
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.12);
 }
 .subscribe-input {
@@ -1957,15 +1930,13 @@ h6 {
   width: 424px;
   height: 48px;
   border: none;
-  background: #fff;
+  background: var(--color-light-grey);
   outline: none;
-  font-family: "Public sans";
-  font-weight: 400;
+  font-family: var(--font-family-regular);
   font-size: 18px;
 }
 .subscribe-input::placeholder {
-  font-family: "Public sans";
-  font-weight: 400;
+  font-family: var(--font-family-regular);
   font-size: 16px;
   line-height: 150%;
   color: #77878f;
@@ -1981,16 +1952,15 @@ h6 {
   padding-left: 0;
   width: 160px;
   height: 48px;
-  background: #fa8232;
+  background: var(--color-orange);
   border: none;
-  cursor: pointer;
-  font-family: "Public sans";
-  font-weight: 700;
+  font-family: var(--font-family-regular);
   font-size: 14px;
+  font-weight: 700;
   line-height: 343%;
   letter-spacing: 0.01em;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--color-light-grey);
   position: relative;
 }
 .sub-input-btn_arrow {
@@ -2014,9 +1984,9 @@ h6 {
 .footer-container {
   display: flex;
   padding: 72px 300px;
-  width: 1920px;
-  height: 404px;
-  background: #191c1f;
+  width: 1320px;
+  height: 340px;
+  background: var(--color-dark-grey);
   justify-content: center;
   align-items: flex-start;
 }
@@ -2032,12 +2002,12 @@ h6 {
   margin-bottom: 20px;
 }
 .footer-logo_text {
-  font-family: "Public sans";
+  font-family: var(--font-family-regular);
   font-weight: 700;
   font-size: 32px;
   line-height: 125%;
   letter-spacing: -0.02em;
-  color: #fff;
+  color: var(--color-light-grey);
   margin-left: 8px;
 }
 .foot-address_container {
@@ -2046,35 +2016,33 @@ h6 {
   width: 250px;
 }
 .foot-customer_support {
-  font-family: "Public sans";
-  font-weight: 400;
+  font-family: var(--font-family-regular);
   font-size: 14px;
   line-height: 143%;
   color: #77878f;
   margin-bottom: 10px;
 }
 .foot-input_tel {
-  font-family: "Public sans";
+  font-family: var(--font-family-regular);
   font-weight: 500;
   font-size: 18px;
   line-height: 133%;
-  color: #fff;
+  color: var(--color-light-grey);
   text-decoration: none;
 }
 .foot-address {
-  font-family: "Public sans";
-  font-weight: 400;
+  font-family: var(--font-family-regular);
   font-size: 16px;
   line-height: 150%;
   color: #adb7bc;
   margin: 10px 0;
 }
 .foot-input_email {
-  font-family: "Public sans";
+  font-family: var(--font-family-regular);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
-  color: #fff;
+  color: var(--color-light-grey);
   text-decoration: none;
 }
 .footer-categories_container,
@@ -2088,8 +2056,8 @@ h6 {
 .foot-links_title,
 .foot-app_title,
 .foot-tags_title {
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -2109,11 +2077,12 @@ h6 {
 .foot-links_help,
 .foot-links_about {
   color: #929fa5;
-  font-family: "Public Sans";
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   padding: 6px 0px;
+  cursor: pointer;
 }
 .foot-categories-title_container {
   display: flex;
@@ -2122,8 +2091,8 @@ h6 {
 }
 .foot-cat_title {
   margin-left: 8px;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -2135,8 +2104,8 @@ h6 {
   cursor: pointer;
 }
 .foot-categories_link {
-  color: #ebc80c;
-  font-family: "Public Sans";
+  color: var(--color-yellow);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -2167,16 +2136,13 @@ h6 {
 .foot-tags-row_container:last-child {
   margin-bottom: 0;
 }
-.active-tag {
-  background: #303639;
-}
 .foot-tag {
   display: flex;
   padding: 6px 12px;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  font-family: "Public Sans";
+  color: var(--color-light-grey);
+  font-family: var(--font-family-regular);
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -2187,4 +2153,7 @@ h6 {
 }
 .foot-tag:last-child {
   margin-right: 0;
+}
+.foot-tag:hover {
+  background: #303639;
 }
