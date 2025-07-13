@@ -1535,8 +1535,25 @@ h6 {
   width: 20px;
   height: 20px;
 }
+.right-banner-img_container {
+  position: relative;
+}
 .right-banner_img {
   margin-top: 32px;
+}
+.right-banner_price {
+  position: absolute;
+  padding: 30px 18px;
+  align-items: flex-start;
+  border-radius: 1000px;
+  background: #2DA5F3;
+  color: #FFF;
+  font-family: "Public Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  top: 24px;
+  right: 24px;
 }
 .accessories-banners_container {
   margin-left: 24px;
