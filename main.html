@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -90,7 +91,7 @@
           <input
             class="search-input"
             type="text"
-            placeholder="Search for anything"
+            placeholder="Search for anything..."
           />
           <button class="search-btn">
             <img
@@ -670,12 +671,14 @@
         <section class="products-cards_container">
           <article class="products-header_container">
             <h2 class="products-title">Featured Products</h2>
-            <div class="products-sorting_container">
-              <h5 class="products-sorting_title">All Products</h5>
-              <p class="products-sorting">Smart Phone</p>
-              <p class="products-sorting">Laptop</p>
-              <p class="products-sorting">Headphone</p>
-              <p class="products-sorting">TV</p>
+            <nav class="products-sorting_container">
+              <ul class="products-sorting_list">
+                <li class="products-sorting">All Products</li>
+                <li class="products-sorting">Smart Phone</li>
+                <li class="products-sorting">Laptop</li>
+                <li class="products-sorting">Headphone</li>
+                <li class="products-sorting">TV</li>
+              </ul>
               <div class="products-link_container">
                 <a class="products-link" href="#"
                   >Browse All Products
@@ -686,7 +689,7 @@
                   />
                 </a>
               </div>
-            </div>
+            </nav>
           </article>
           <article class="products-cards-upper_container">
             <div class="prod-card">
@@ -1159,7 +1162,7 @@
       </section>
       <section class="banners-container">
         <article class="left-banner_container">
-          <div class="description-container">
+          <div class="left-banner-description_container">
             <p class="left-banner_label">INTRODUCING</p>
             <p class="left-banner_title">New Apple Homepod Mini</p>
             <p class="left-banner_content">
@@ -1206,12 +1209,14 @@
         <section class="accessories-cards_container">
           <article class="accessories-header_container">
             <h2 class="accessories-title">Computer Accessories</h2>
-            <div class="accessories-sorting_container">
-              <h5 class="accessories-sorting_title">All Products</h5>
-              <p class="accessories-sorting">Keyboard & Mouse</p>
-              <p class="accessories-sorting">Headphone</p>
-              <p class="accessories-sorting">Webcam</p>
-              <p class="accessories-sorting">Printer</p>
+            <nav class="accessories-sorting_container">
+              <ul class="accessories-sorting_list">
+                <li class="accessories-sorting">All Products</li>
+                <li class="accessories-sorting">Keyboard & Mouse</li>
+                <li class="accessories-sorting">Headphone</li>
+                <li class="accessories-sorting">Webcam</li>
+                <li class="accessories-sorting">Printer</li>
+              </ul>
               <div class="accessories-link_container">
                 <a class="accessories-link" href="#"
                   >Browse All Products
@@ -1222,7 +1227,7 @@
                   />
                 </a>
               </div>
-            </div>
+            </nav>
           </article>
           <article class="accessories-cards-upper_container">
             <div class="accessories-card">
@@ -1969,11 +1974,7 @@
               />
             </div>
           </div>
-          <img
-              class="sub-line"
-              src="assets/SubscribeLine.png"
-              alt=""
-            />
+          <img class="sub-line" src="assets/SubscribeLine.png" alt="" />
           <div class="sub-logo_container">
             <img
               class="sub-logo"
@@ -2082,7 +2083,7 @@
               <div class="foot-tags-row_container">
                 <a class="foot-tag" href="#">Macbook</a>
                 <a class="foot-tag" href="#">SSD</a>
-                <a class="foot-tag active-tag" href="#">Graphics Cards</a>
+                <a class="foot-tag" href="#">Graphics Cards</a>
               </div>
               <div class="foot-tags-row_container">
                 <a class="foot-tag" href="#">Power Bank</a>
