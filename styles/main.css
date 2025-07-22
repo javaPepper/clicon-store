@@ -122,7 +122,6 @@ h6 {
   margin-right: 240px;
   padding: 0 24px;
   padding-right: 48px;
->>>>>>> update-html
   color: var(--color-dark-grey);
   font-family: var(--font-family-regular);
   font-weight: 700;
@@ -286,21 +285,10 @@ h6 {
   align-items: center;
   justify-content: space-between;
   background: var(--color-light-grey);
-  /* border-bottom: 1px solid rgba(27, 99, 146, 0.1); */
   padding-top: 16px;
   padding-bottom: 16px;
   position: relative;
-  /* padding-right: 15vw; */
 }
-/* .bottom-nav::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  border-bottom: 1px solid rgba(27, 99, 146, 0.1);
-   background: var(--color-light-grey);
-} */
 .links-container {
   display: flex;
   align-items: center;
@@ -652,8 +640,6 @@ h6 {
 }
 
 .best-deals {
-  /* padding: 72px 300px;
-  max-width: 1320px; */
   padding-top: 72px;
   padding-bottom: 72px;
 }
