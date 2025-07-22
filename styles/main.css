@@ -1,28 +1,10 @@
 @font-face {
   font-family: "Public Sans";
-<<<<<<< HEAD
-  src: url(/fonts/PublicSans-Regular.woff2) format("woff2");
-=======
   src: url(../fonts/PublicSans-Regular.woff2) format("woff2");
->>>>>>> update-html
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
-<<<<<<< HEAD
-
-:root {
-  --color-dark-grey: #191c1f;
-  --color-yellow: #ebc80c;
-  --color-light-grey: #fff;
-  --color-blue: #1b6392;
-  --color-orange: #fa8232;
-
-  --font-family-regular: "Public Sans", sans-serif;
-}
-
-=======
->>>>>>> update-html
 body {
   background: var(--color-light-grey);
 }
@@ -69,10 +51,6 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< HEAD
-  padding: 16px 300px;
-  background-color: var(--color-dark-grey);
-=======
   padding: 16px;
   padding-left: 300px;
   padding-right: 24px;
@@ -82,7 +60,6 @@ h6 {
   right: 0;
   left: 0;
   z-index: 100;
->>>>>>> update-html
 }
 .left-side_container {
   display: flex;
@@ -142,10 +119,6 @@ h6 {
 }
 .shop-now_btn {
   background-color: var(--color-yellow);
-<<<<<<< HEAD
-  padding: 0 24px;
-  padding-right: 40px;
-=======
   margin-right: 240px;
   padding: 0 24px;
   padding-right: 48px;
@@ -312,18 +285,12 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< HEAD
-  background-color: var(--color-light-grey);
-  border-bottom: 1px solid rgba(27, 99, 146, 0.1);
-  padding: 16px 300px;
-=======
   background: var(--color-light-grey);
   /* border-bottom: 1px solid rgba(27, 99, 146, 0.1); */
   padding-top: 16px;
   padding-bottom: 16px;
   position: relative;
   /* padding-right: 15vw; */
->>>>>>> update-html
 }
 /* .bottom-nav::after {
   content: "";
@@ -753,12 +720,8 @@ h6 {
 .active-card {
   border: 1px solid #e4e7e9;
   background: var(--color-light-grey);
-<<<<<<< HEAD
-  max-width: 326px;
-=======
   width: 326px;
   height: 592px;
->>>>>>> update-html
   position: relative;
   margin-right: -1px;
 }
@@ -890,13 +853,7 @@ h6 {
   flex-direction: column;
   border: 1px solid #e4e7e9;
   background: var(--color-light-grey);
-<<<<<<< HEAD
-  border-left: none;
-  max-width: 246px;
-  max-height: 294px;
-=======
   max-height: 296px;
->>>>>>> update-html
   position: relative;
   padding: 16px;
   margin-inline: -1px;
@@ -1047,10 +1004,6 @@ h6 {
   padding: 5px 10px;
 }
 .categories {
-<<<<<<< HEAD
-  margin: 0 300px;
-=======
->>>>>>> update-html
   background-color: var(--color-light-grey);
   margin-bottom: 72px;
 }
@@ -1681,19 +1634,6 @@ h6 {
   font-weight: 600;
   line-height: 24px;
 }
-<<<<<<< HEAD
-.banner-button_container,
-.lb-btn_container {
-  display: flex;
-  padding: 0px 24px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 2px;
-  background: var(--color-orange);
-  cursor: pointer;
-}
-=======
->>>>>>> update-html
 .right-banner-btn_arrow {
   right: 70px;
 }
@@ -2004,14 +1944,8 @@ h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-  padding: 72px 300px;
-  background: var(--color-blue);
-  width: 1320px;
-=======
   padding: 72px 0;
   background: var(--color-blue);
->>>>>>> update-html
 }
 .subscribe-title {
   font-family: var(--font-family-regular);
@@ -2037,11 +1971,7 @@ h6 {
   border-radius: 3px;
   padding: 12px;
   width: 624px;
-<<<<<<< HEAD
-  height: 48px;
-=======
   height: 72px;
->>>>>>> update-html
   background: var(--color-light-grey);
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -2101,13 +2031,7 @@ h6 {
 }
 .footer-container {
   display: flex;
-<<<<<<< HEAD
-  padding: 72px 300px;
-  width: 1320px;
-  height: 340px;
-=======
   padding: 72px 0;
->>>>>>> update-html
   background: var(--color-dark-grey);
   justify-content: center;
   align-items: flex-start;
@@ -2210,10 +2134,7 @@ h6 {
   line-height: 20px;
   padding: 6px 0px;
   cursor: pointer;
-<<<<<<< HEAD
-=======
   text-decoration: none;
->>>>>>> update-html
 }
 .foot-categories-title_container {
   display: flex;
