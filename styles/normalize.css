@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+* {
+  box-sizing: border-box;
+}
+>>>>>>> update-html
 :where(ul, ol):where([class]) {
   padding-left: 0;
 }
