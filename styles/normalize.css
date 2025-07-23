@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 * {
   box-sizing: border-box;
 }
->>>>>>> update-html
-=======
-* {
-  box-sizing: border-box;
-}
->>>>>>> 7abb9a6 (feat: update html, css for responsive design)
+
 :where(ul, ol):where([class]) {
   padding-left: 0;
 }
