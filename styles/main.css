@@ -44,6 +44,7 @@ h6 {
 }
 .main {
   background: var(--color-light-grey);
+  max-width: 1920px;
   padding: 0;
   margin: 0;
 }
@@ -392,6 +393,7 @@ h6 {
   line-height: 24px;
   margin-left: 56px;
   margin-bottom: 24px;
+  max-width: 356px;
 }
 .lw-btn {
   width: 191px;
@@ -527,6 +529,8 @@ h6 {
   display: flex;
 }
 .xiaomiFlipBuds {
+  max-width: 160px;
+  max-height: 160px;
   margin-left: 32px;
   margin-top: 40px;
 }
@@ -727,7 +731,7 @@ h6 {
 .active-card {
   border: 1px solid #e4e7e9;
   background: var(--color-light-grey);
-  width: 326px;
+  width: 328px;
   height: 592px;
   position: relative;
   margin-right: -1px;
@@ -1042,7 +1046,7 @@ h6 {
   background: var(--color-light-grey);
   margin-right: 18px;
 }
-.categories-card:last-child {
+.categories-card:last-of-type {
   margin-right: 0;
 }
 .categories-img {
@@ -1069,7 +1073,7 @@ h6 {
   left: -22px;
 }
 .round-arrow_right {
-  right: 0;
+  right: -22px;
 }
 
 @media (max-width: 1280px) {
@@ -1274,8 +1278,8 @@ h6 {
   background: var(--color-light-grey);
   margin-right: 16px;
   position: relative;
-  width: 233px;
-  height: 312px;
+  max-width: 234px;
+  max-height: 321px;
   transition: 0.7s ease;
 }
 .accessories-card {
@@ -1522,16 +1526,15 @@ h6 {
 .right-banner_container {
   display: flex;
   padding: 44px;
-  justify-content: center;
   align-items: center;
   margin-right: 34px;
   border-radius: 4px;
   background: #f2f4f5;
+  max-width: 648px;
+  max-height: 336px;
 }
 .right-banner_container {
   background: var(--color-dark-grey);
-  padding: 0;
-  padding-left: 44px;
   margin-right: 0;
 }
 .left-banner-description_container,
@@ -1540,11 +1543,9 @@ h6 {
   flex-direction: column;
   align-items: flex-start;
   margin-right: 40px;
-  width: 346px;
-  height: 248px;
 }
 .right-banner-description_container {
-  margin-right: 12px;
+  margin-right: 0;
 }
 .left-banner_label,
 .right-banner_label {
@@ -1581,6 +1582,7 @@ h6 {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 20px;
+  width: 280px;
 }
 .right-banner_content {
   color: #adb7bc;
@@ -1616,9 +1618,13 @@ h6 {
 }
 .right-banner-img_container {
   position: relative;
+  width: 312px;
+  height: 349px;
+  flex-shrink: 0;
 }
 .right-banner_img {
-  margin-top: 32px;
+
+  margin-top: 37px;
 }
 .right-banner_price {
   position: absolute;
