@@ -15,7 +15,7 @@ body {
   --color-blue: #1b6392;
   --color-orange: #fa8232;
 
-  --container-width: 720px;
+  --container-width: 1320px;
   --container-padding-x: 300px;
 
   --font-family-regular: "Public Sans", sans-serif;
@@ -40,13 +40,14 @@ h6 {
   justify-content: space-between;
   margin-top: 83px;
   background: var(--color-blue);
-  padding-right: -10px;
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
 }
 .main {
   background: var(--color-light-grey);
-  max-width: 1920px;
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   padding: 0;
-  margin: 0;
+  margin-inline: auto;
 }
 .widget-container {
   display: flex;
@@ -61,6 +62,8 @@ h6 {
   right: 0;
   left: 0;
   z-index: 100;
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
 }
 .left-side_container {
   display: flex;
@@ -1265,7 +1268,7 @@ h6 {
   display: flex;
   align-items: flex-start;
   margin-left: 24px;
-  margin-top: 16px;
+  margin-top: 13px;
 }
 .accessories-cards-upper_container,
 .accessories-cards-lower_container {
@@ -1663,6 +1666,9 @@ h6 {
   border-radius: 4px;
   background: #f7e99e;
 }
+.accessories-ub_img {
+  margin-top: -10px;
+}
 .accessories-ub-content {
   width: 248px;
   display: flex;
@@ -1691,7 +1697,6 @@ h6 {
 .accessories-ub-price_container {
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
 }
 .accessories-ub-price_text {
   color: #475156;
@@ -1712,9 +1717,6 @@ h6 {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-}
-.right-banner-btn_arrow {
-  right: 70px;
 }
 .accessories-lower-banner_container {
   border-radius: 4px;
@@ -1760,14 +1762,16 @@ h6 {
   color: var(--color-yellow);
   font-weight: 600;
 }
-.accessories-lb-btn_container {
+.accessories-lb-btn_container,
+.accessories-ub-btn_container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 2px;
 }
-.accessories-lb_btn {
+.accessories-lb_btn,
+.accessories-ub_btn {
   width: 248px;
   padding: 0px 24px;
   background: #2da5f3;
@@ -1780,6 +1784,9 @@ h6 {
   text-transform: uppercase;
   border: none;
   margin-top: 24px;
+}
+.accessories-ub_btn {
+  background: #FA8232;
 }
 .accessories-lb-btn_arrow {
   position: absolute;
@@ -1813,7 +1820,7 @@ h6 {
   background: #ffe7d6;
   position: relative;
   height: 424px;
-  margin: 0 300px;
+  margin: 0 241px;
 }
 .lb-content_container {
   padding: 80px 72px;
@@ -2171,15 +2178,14 @@ h6 {
   width: 552px;
   height: 72px;
 }
-
-
-
 .footer-container {
   display: flex;
   padding: 72px 300px;
   background: var(--color-dark-grey);
   justify-content: space-between;
   align-items: flex-start;
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
 }
 .footer-logo_container {
   display: flex;
