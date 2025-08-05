@@ -627,14 +627,17 @@ h6 {
 
 @media (max-width: 1940px) {
   .container {
-    padding-inline: 22px;
+    padding-inline: initial;
+  }
+  .container.mid-widgets {
+    margin-inline: 5%;
   }
   .top-nav,
   .middle-nav,
   .bottom-nav {
     padding-inline: 50px;
   }
-  .upper-widget {
+  .container.upper-widget {
     padding-inline: 50px;
   }
   .mid-widgets_container {
@@ -659,8 +662,8 @@ h6 {
     margin-left: 24px;
   }
   .features-container {
-    /* padding-inline: 50px; */
-    margin-inline: 20px;
+    max-width: 1320px;
+    margin-inline: auto;
   }
 }
 
@@ -894,7 +897,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 248px);
   width: 100%;
-  justify-content: end;
+  justify-content: space-between;
 }
 .regular-card {
   display: flex;
@@ -1052,6 +1055,14 @@ h6 {
   padding: 5px 10px;
 }
 
+@media (max-width: 1940px) {
+   .container.best-deals {
+    margin-inline: auto;
+    max-width: 1320px;
+    padding-inline: 5%;
+   }
+}
+
 @media (max-width: 1280px) {
   .best-deals {
     margin-inline: 50px;
@@ -1114,8 +1125,12 @@ h6 {
 }
 
 @media (max-width: 1940px) {
-  .categories {
-    margin-inline: 20px;
+  .container.categories {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 3%;
+    max-width: 1320px;
+    margin-inline: auto;
   }
 }
 
@@ -1535,6 +1550,11 @@ h6 {
 }
 
 @media (max-width: 1940px) {
+  .products {
+    margin-inline: 20px;
+    display: flex;
+    justify-content: center;
+  }
   .so-button {
     margin-top: 30px;
     margin-inline: 57px;
@@ -1712,6 +1732,7 @@ h6 {
 @media (max-width: 1940px) {
 .banners-container {
   margin-inline: 20px;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   }
 .left-banner_container {
@@ -1991,7 +2012,7 @@ h6 {
 
 @media (max-width: 1940px) {
   .lower-banner {
-    margin-inline: 20px;
+    margin-inline: 5%;
   }
 }
 
@@ -2057,7 +2078,8 @@ h6 {
     margin-inline: 20px;
     padding-inline: 0;
   }
-  .prod-mini-left_container {
+  .prod-mini-left_container,
+  .prod-mini-right_container {
     padding-bottom: 25px;
   }
   .new-arrival_container .prod-mini-card_container {
@@ -2195,6 +2217,7 @@ h6 {
 @media(max-width: 1940px) {
   .articles-container {
     width: 95%;
+    justify-content: center;
   }
   .article-img {
     height: 90%;
